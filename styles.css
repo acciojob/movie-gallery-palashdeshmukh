@@ -2,6 +2,10 @@
 	margin:0px
 	padding:0px;
 }
+.container-fluid{
+	margin:10px;
+	border:1px solid black;
+}
 .row{
 	display:flex;
 	justify-content:space-between;
@@ -10,16 +14,16 @@
 	margin-top:2px;
 }
 
-.col-sm-5{
-width:8%	
+.col-sm-1{
+width:8.1%	
 }
-.col-sm-6{
-	width:16.35%;
+.col-sm-2{
+	width:16.1%;
 }
 .col-sm-4{
 	width:33.1%;
 }
-.col-sm-7{
+.col-sm-12{
 	width:100%
 }
 img{
