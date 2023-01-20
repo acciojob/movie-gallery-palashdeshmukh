@@ -2,25 +2,21 @@
 	margin:0px
 	padding:0px;
 }
-.container-fluid{
-	
+.row{
+	display:flex;
+	justify-content:start;
+	flex-wrap:wrap;
+	gap:3px;
 }
 
 .col-sm-5{
-width:8.3%;
-	float:left;
-	gap:5px;
-	
+width:8%	
 }
 .col-sm-6{
-	width:16.6%;
-	float:left;
-	gap:5px;
+	width:16.35%;
 }
 .col-sm-4{
-	width:33.3%;
-	float:left;
-	gap:5px
+	width:33.1%;
 }
 .col-sm-7{
 	width:100%
